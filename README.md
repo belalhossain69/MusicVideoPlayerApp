@@ -54,18 +54,3 @@ Orchestral and instrumental music for a sophisticated listening experience.
 - **RecyclerView & Adapters** — For dynamic lists and categories  
 - **Material Design Components** — For clean and modern UI  
 
----
-
-## 🚀 Installation
-
-1. Clone the repo:  
-   ```bash
-   git clone https://github.com/your-username/MusicVideoPlayerApp.git
-
-
-
-
-
-
-
-
