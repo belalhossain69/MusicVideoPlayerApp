@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#ED8C32</color>
+    <color name="color">#E53935</color>
+
+
+    <!-- Primary & Secondary Colors -->
+    <color name="md_theme_primary">#6200EE</color>
+    <color name="md_theme_primary_variant">#3700B3</color>
+    <color name="md_onPrimary">#FFFFFF</color>
+    <color name="md_primary_dark">#1DB954</color> <!-- Spotify-like green -->
+
+    <color name="md_theme_secondary">#03DAC6</color>
+    <color name="md_theme_secondary_variant">#018786</color>
+    <color name="md_onSecondary">#000000</color>
+
+    <!-- Dark Theme Colors -->
+    <color name="md_theme_primary_dark">#BB86FC</color>
+    <color name="md_theme_primary_variant_dark">#3700B3</color>
+    <color name="md_onPrimary_dark">#000000</color>
+
+    <color name="md_theme_secondary_dark">#657272</color>
+    <color name="md_theme_secondary_variant_dark">#018786</color>
+    <color name="md_onSecondary_dark">#000000</color>
+
+    <!-- Backgrounds & Surfaces -->
+    <color name="md_background">#FFFFFF</color>
+    <color name="md_surface">#F5F5F5</color>
+    <color name="md_onBackground">#000000</color>
+    <color name="md_onSurface">#000000</color>
+
+    <!-- Dark Backgrounds -->
+    <color name="md_background_dark">#121212</color>
+    <color name="md_surface_dark">#1E1E1E</color>
+    <color name="md_onBackground_dark">#FFFFFF</color>
+    <color name="md_onSurface_dark">#FFFFFF</color>
+    <color name="md_hint_dark">#AAAAAA</color>
+
+
+
+    <color name="darkBackground">#121212</color>
+    <color name="darkCard">#1E1E1E</color>
+    <color name="darkSurface">#2A2A2A</color>
+
+    <!-- Text -->
+    <color name="darkTextPrimary">#FFFFFF</color>
+    <color name="darkTextSecondary">#B3FFFFFF</color>
+
+    <!-- Accents -->
+    <color name="darkAccent">#BB86FC</color>
+    <color name="darkAccentVariant">#3700B3</color>
+
+    <!-- Borders / Hints -->
+    <color name="darkBorder">#2E2E2E</color>
+    <color name="darkHint">#80FFFFFF</color>
+
+
+
+
+
+</resources>

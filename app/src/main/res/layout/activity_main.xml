@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/md_background_dark">
+
+    <!-- Top section: Title -->
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music App"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/md_onBackground_dark"
+        />
+
+    <AutoCompleteTextView
+        android:id="@+id/search_field"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:hint="Search music..."
+        android:background="@drawable/rounded_search_dark"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:drawableStart="@drawable/ic_search_dark"
+        android:drawablePadding="12dp"
+        android:textColor="@color/md_onBackground_dark"
+        android:textColorHint="@color/md_hint_dark"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:completionThreshold="1"/>
+
+
+
+
+    <!-- Middle section: Categories RecyclerView (horizontal) -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/category_list"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:overScrollMode="never"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:scrollbars="horizontal"
+        android:contentDescription="Music categories list"
+        tools:listitem="@layout/item_category"
+        />
+
+    <!-- Banner section: Auto-slider ViewPager2 wrapped in FrameLayout -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/slider_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"/>
+    </FrameLayout>
+
+    <!-- Slider dots container -->
+    <LinearLayout
+        android:id="@+id/slider_dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Bottom section: Music RecyclerView (vertical) -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/music_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        android:contentDescription="List of music tracks"
+        tools:listitem="@layout/item_music"/>
+
+</LinearLayout>

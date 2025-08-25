@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Dark background for image placeholder -->
+    <solid android:color="#2C2C2C"/>
+
+    <!-- Rounded corners -->
+    <corners android:radius="30dp"/>
+
+    <!-- Optional subtle shadow effect using stroke -->
+    <stroke
+        android:width="1dp"
+        android:color="#444444"/>
+</shape>
